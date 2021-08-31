@@ -4,28 +4,28 @@ import Player from './components/Player/Player';
 function App() {
   const [songs] = useState([
     {
-      title: "Forget me too ft. Halsey",
-      artist: "Machine Gun Kelly",
+      title: "Night Changes",
+      artist: "One Direction",
       img_src: "./images/song-1.jpg",
-      src: "./music/on-n-on.mp3"
+      src: "./music/One+Direction+Night+Changes.mp3"
     },
     {
-      title: "Song 2",
-      artist: "Artist 2",
+      title: "Steal My Girl",
+      artist: "One Direction",
       img_src: "./images/song-2.jpg",
-      src: "./music/somebody-new.mp3"
+      src: "./music/One Direction - Steal My Girl.mp3"
     },
     {
-      title: "Song 3",
-      artist: "Artist 3",
-      img_src: "./images/song-3.jpg",
-      src: "./music/on-n-on.mp3"
-    },
-    {
-      title: "Song 4",
-      artist: "Artist 4",
+      title: "Story Of My life",
+      artist: "One Direction",
       img_src: "./images/song-4.jpg",
-      src: "./music/somebody-new.mp3"
+      src: "./music/one-direction-story-of-my-life-4k.mp3"
+    },
+    {
+      title: "What Makes You Beautiful",
+      artist: "One Direction",
+      img_src: "./images/song-4.jpg",
+      src: "./music/One+Direction+What+Makes+You+Beautiful+Audio.mp3"
     }
   ]);
 
@@ -51,6 +51,7 @@ function App() {
         songs={songs}
       />
     </div>
+    
   );
 }
 

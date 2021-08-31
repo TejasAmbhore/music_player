@@ -18,7 +18,10 @@ body {
 
 .c-player {
     display: block;
-    background-color: #313131;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     display: block;
     margin: 0px auto;
     padding: 50px;
@@ -27,10 +30,10 @@ body {
 }
 
 .c-player > h4 {
-    color: #FFF;
+    color: #1db954;
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -56,7 +59,7 @@ body {
     margin: 50px auto;
     width: 100%;
     max-width: 250px;
-    border-radius: 50%;
+    
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8), -6px -6px 12px rgba(255, 255, 255, 0.4);
 }
 
@@ -68,8 +71,7 @@ body {
     left: -25px;
     right: -25px;
     bottom: -25px;
-    border-radius: 50%;
-    border: 3px dashed rgba(255, 206, 0, 1);
+    
 }
 
 .c-player--details .details-title {
@@ -103,7 +105,7 @@ body {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
     border: none;
     outline: none;
-    background-color: #FFCE00;
+    background-color: #1db954;
     color: #FFF;
     font-size: 24px;
     cursor: pointer;
